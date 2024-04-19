@@ -9,6 +9,9 @@ public class PC {
         setPcCase(pcCase);
         setMotherboard(motherboard);
     }
+    public PC (Case pcCase){
+        setPcCase(pcCase);
+    }
 
     public Case getPcCase() {
         return pcCase;
